@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Favicon  -->
+
+  <link rel="icon" type="image/x-icon" href="https://blogger.googleusercontent.com/img/a/AVvXsEgLa6d0EzkpCL6aI4uInfYvE-VgaV7k-CzMWPdgBuTRhqsreNGjygCOXl5hxnat4nP63dEnEtWnJ1Rq_x8qK-V0mZo4g1VDkCgK6LIDBU03r6RFpMjxRVqT0RgFyvCI-tOD6JCmKvyMo9m9YLvlWHm-39iB9_jvsUSugFA-m98Zuzv6Vib6TX6V2KjD">
+
+
+
+  <title>
+    Join Membership
+  </title>
+
+  <!-- icon -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Passion+One:wght@700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+  <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+
+  <!--		@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');-->
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #383838;
+      color:#ff7357;
+    }
+
+
+
+
+    /* Style the header */
+    .header {
+      background-color: black;
+      padding: 10px;
+    }
+
+
+
+    /*--------------------------- Style the top navigation bar ------------------------*/
+
+    .topnav {
+
+      overflow: hidden;
+      background-color: #ff8770 ;
+
+    }
+
+    /*----- Style the topnav links -----*/
+    .topnav a {
+      float: left;
+      color: #3f3333;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      padding: 21px 16px;
+      transition-duration: 0.5s;
+    }
+
+
+    /* Change color on hover */
+    .topnav a:hover {
+      background-color: black;
+      color: #6ddc19;
+    }
+
+    /*---------------dropdown menu-------------------*/
+
+
+    .dropdown {
+      float: left;
+      overflow: hidden;
+    }
+
+
+    .dropdown {
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: #3f3333;
+      padding: 18px 16px;
+      font-family: inherit;
+      margin: 0;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: black;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      border-radius: 10px;
+
+    }
+
+    .dropdown-content a {
+      float: none;
+      color: white;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {
+      background-color:#53ff031e;
+      color: #6ddc19;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+
+
+    /* Style inputs */
+    input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+
+    input[type=submit] {
+      background-color: black;
+      color: white;
+      padding: 25px 50px;
+      border: none;
+      cursor: pointer;
+      border-radius:4px;
+      font-size: 37px;
+    }
+
+    input[type=submit]:hover {
+      background-color: black;
+      color: #6cd41d;
+      transition: 0.5s;
+      transition-duration: 0.5s;
+    }
+
+
+
+    /* Create two columns that float next to eachother */
+    .column {
+
+      width: 50%;
+      margin-top: 6px;
+      padding: 20px;
+      padding-left: 250px;
+
+    }
+
+    body {
+      margin: 0;
+    }
+
+
+    button{
+      cursor: pointer;
+      border: 1px solid #555;
+      text-align: center;
+      padding: 5px;
+      margin-left: 8px;
+    }
+    .dark{
+      background-color: #ffd9d9;
+      color: black;
+    }
+
+    .darkm{
+      text-align: right;
+      padding: 16px;
+      margin-right: 70px;
+    }
+
+    .darkn{
+      text-align: left;
+      margin-left: 1195px;
+    }
+
+
+    *{
+      padding:0;
+      margin:0;
+    }
+
+    html{
+      background-color: #eaf0f2;
+    }
+
+    body{
+      font:16px/1.6 Arial,  sans-serif;
+    }
+
+    header{
+      text-align: center;
+      padding-top: 100px;
+      margin-bottom:190px;
+    }
+
+    header h1{
+      font: normal 32px/1.5 'Open Sans', sans-serif;
+      color: #3F71AE;
+      padding-bottom: 16px;
+    }
+
+    header h2{
+      color: #F05283;
+    }
+
+    header span{
+      color: #3F71EA;
+    }
+
+
+    /* The footer is fixed to the bottom of the page */
+
+    footer{
+      position: relative;
+      bottom: 0;
+    }
+
+    @media (max-height:800px){
+      footer { position: static; }
+      header { padding-top:40px; }
+    }
+
+
+    .footer-distributed{
+      background-color: #2c292f;
+      box-sizing: border-box;
+      width: 100%;
+      text-align: left;
+      font: bold 16px sans-serif;
+      padding: 50px 50px 60px 50px;
+      margin-top: 80px;
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    /* Footer left */
+
+    .footer-distributed .footer-left{
+      width: 30%;
+    }
+
+    .footer-distributed h3{
+      color:  #ffffff;
+      font: normal 36px 'Cookie', cursive;
+      margin: 0;
+    }
+
+    /* The company logo */
+
+    .footer-distributed .footer-left img{
+      width: 30%;
+    }
+
+    .footer-distributed h3 span{
+      color:  #e0ac1c;
+    }
+
+    /* Footer links */
+
+    .footer-distributed .footer-links{
+      color:  #ffffff;
+      margin: 20px 0 12px;
+    }
+
+    .footer-distributed .footer-links a{
+      display:inline-block;
+      line-height: 1.8;
+      text-decoration: none;
+      color:  inherit;
+    }
+
+    .footer-distributed .footer-company-name{
+      color:  #8f9296;
+      font-size: 14px;
+      font-weight: normal;
+      margin: 0;
+    }
+
+    /* Footer Center */
+
+    .footer-distributed .footer-center{
+      width: 35%;
+    }
+
+
+    .footer-distributed .footer-center i{
+      background-color:  #33383b;
+      color: #ffffff;
+      font-size: 25px;
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 42px;
+      margin: 10px 15px;
+      vertical-align: middle;
+    }
+
+    .footer-distributed .footer-center i.fa-envelope{
+      font-size: 17px;
+      line-height: 38px;
+    }
+
+    .footer-distributed .footer-center p{
+      display: inline-block;
+      color: #ffffff;
+      vertical-align: middle;
+      margin:0;
+    }
+
+    .footer-distributed .footer-center p span{
+      display:block;
+      font-weight: normal;
+      font-size:14px;
+      line-height:2;
+    }
+
+    .footer-distributed .footer-center p a{
+      color:  #e0ac1c;
+      text-decoration: none;;
+    }
+
+
+    /* Footer Right */
+
+    .footer-distributed .footer-right{
+      width: 30%;
+    }
+
+    .footer-distributed .footer-company-about{
+      line-height: 20px;
+      color:  #92999f;
+      font-size: 13px;
+      font-weight: normal;
+      margin: 0;
+    }
+
+    .footer-distributed .footer-company-about span{
+      display: block;
+      color:  #ffffff;
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .footer-distributed .footer-icons{
+      margin-top: 25px;
+    }
+
+    .footer-distributed .footer-icons a{
+      display: inline-block;
+      width: 35px;
+      height: 35px;
+      cursor: pointer;
+      background-color:  #33383b;
+      border-radius: 2px;
+
+      font-size: 20px;
+      color: #ffffff;
+      text-align: center;
+      line-height: 35px;
+
+      margin-right: 3px;
+      margin-bottom: 5px;
+    }
+
+    /* Here is the code for Responsive Footer */
+    /* You can remove below code if you don't want Footer to be responsive */
+
+
+    @media (max-width: 880px) {
+
+      .footer-distributed .footer-left,
+      .footer-distributed .footer-center,
+      .footer-distributed .footer-right{
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+      }
+
+      .footer-distributed .footer-center i{
+        margin-left: 0;
+      }
+
+    }
+
+  </style>
+
+  <script>
+
+    // Validating Empty Field
+    function check_empty() {
+      if (document.getElementById('pswrd').value=="") {
+        alert("Fill All Fields !");
+      } else {
+        document.getElementById('form').submit();
+        alert("Sign Up Successfull...");
+      }
+    }
+
+
+
+  </script>
+
+
+
+</head>
+<body>
+
+
+
+<!-- header  -->
+
+
+<div class="header">
+
+  <img src= "https://blogger.googleusercontent.com/img/a/AVvXsEiV4-fB7LABzYEl9wTe0OPg1cbBytDq5jNCmIzvPnBjuRTUQ8lww-WMHLfxXXzLPZWXnyXcQXzDO0PQfQm7UlHmcqmb_UhDI9a4w8EJQl5yGbxzXIsns9sBk7PFgZxLUBTg2meOW2QfvDPM1luUYRk6dOy5Mq5bjGt_TScOM4WiDfMwQ7atTXv-T4Hl=s500"
+       height=  "100" width= "100" style="border-radius:10px;">
+
+  <!-- <h1 style= "color:white; font-family: Passion One; font-size:52px;"> VICTORY <br> GYM</h1>-->
+  <img src= "lg4.png" height=  "100" width= "230">
+
+
+</div>
+
+
+<!-- navigation bar  -->
+
+
+<div class="topnav">
+
+  <div class="dropdown">
+    <i class="material-icons">menu</i>
+    <div class="dropdown-content">
+      <a href="#"></a>
+      <a href="Abs_workout.html">Abs Workout</a>
+      <a href="#section2">Body-building Meal</a>
+      <a href="#section3">Weight Loss Meal</a>
+    </div>
+  </div>
+  <div class="navbar-text">
+    <a href="Homepage.html">Home </a>
+    <a href="full_body_workout.html" >Workout</a>
+    <a href="fitbit2.html">DIET</a>
+    <a href="gym-equipment.html"> SHOP</a>
+    <a href="workout%20session.html">Our Programmes</a>
+    <a href="contact%20section.html" target= "_blank"> Contact Us </a>
+    <a href="SignUp2.html">Join Membership</a>
+  </div>
+  <div class="darkm">
+    <!-- DARK MODE-->
+    <label class="switch">
+
+      <span style="color: black;" class="material-icons"  onclick="myFunction()">
+      wb_sunny
+      </span>
+
+    </label>
+  </div>
+  <script>
+    function myFunction() {
+      var element = document.body;
+      element.classList.toggle("dark");
+    }
+  </script>
+  <!--------------------------------->
+</div>
+
+
+
+<div style=" margin-left:250px; margin-top: 80px; font-size: 30px; font-family: oswald; ">
+  <h1>Join Membership :</h1>
+  <p style= "color:grey; font-size: 17px; font-family:Arial, Helvetica, sans-serif;">Sign Up for the Victory Gym Membership and get exclusive workout routines directly on your mail</p>
+</div
+
+
+
+<div class="row">
+
+  <div class="column">
+    <form action="Homepage.html" method="post" id="form" >
+      <label for="fname">First Name*</label>
+      <input type="text" id="fname" name="firstname" placeholder="First Name" required>
+      <label for="lname">Last Name*</label>
+      <input type="text" id="lname" name="lastname" placeholder="Last Name" required>
+      <label for="nname">Mobile No.*</label>
+      <input type="text" id="nname" name="firstname" placeholder="Ex:9253848842" pattern ="[0-9]{10}" required>
+      <label for="nname">Mail id*</label>
+      <input type="text" id="nname" name="firstname" placeholder="mad123@gmail.com"
+             pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}"
+             required>
+      <label for="lname">Password*</label>
+      <input type="text" id="pswrd" name="firstname" placeholder="password" required>
+
+      <br>
+      <label for="country">Country*</label>
+      <select id="country" name="country">
+        <option value="australia">India</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+
+      <input type="submit" value="Submit" onclick="check_empty()">
+    </form>
+  </div>
+</div>
+
+<footer class="footer-distributed">
+
+  <div class="footer-left">
+    <h3>About<span> VictoryGym</span></h3>
+
+    <p class="footer-links">
+      <a href="#">Home</a>
+      |
+      <a href="#">Blog</a>
+      |
+      <a href="#">About</a>
+      |
+      <a href="#">Contact</a>
+      |
+      <a href="#">FAQ</a>
+    </p>
+
+    <p class="footer-company-name">© 2021 Victory Gym  Pvt. Ltd.<br>All right reserve</p>
+  </div>
+
+  <div class="footer-center">
+    <div>
+      <i class="fa fa-map-marker"></i>
+      <p><span>309 - Apex Complex,
+						 Bldg. No. A - 1, Sector -22 </span>
+        Chandigarh - 140901</p>
+    </div>
+
+    <div>
+      <i class="fa fa-phone"></i>
+      <p>+91 22-27782183</p>
+    </div>
+    <div>
+      <i class="fa fa-envelope"></i>
+      <p><a href="mailto:support@victorygym.com">support@victorygym.com</a></p>
+    </div>
+  </div>
+  <div class="footer-right">
+    <p class="footer-company-about">
+      <span>About the Startup</span>
+      We offer best training for the body youo want with latest gym equipments and personalized courses. <br><br>
+      Created by:
+      <br> Keshav Sharma <br> Madhav Bansal <br> Keshav Kumar <br> Kirpajeet Singh
+    </p>
+    <div class="footer-icons">
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-youtube"></i></a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
